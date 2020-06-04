@@ -94,7 +94,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2-preview
         with:
-          name: Trojan-Qt5-Arch
           path: Trojan-Qt5-Arch.*
 
       - name: Upload binaries to release
